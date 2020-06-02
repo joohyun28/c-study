@@ -31,17 +31,17 @@ void sort(int* arr)
 
 int main()
 {
-	cout << "¼ıÀÚ ´Ù¼¸°³¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä(¶ç¾î¾²±â·Î ±¸ºĞ) >>";
+	cout << "ìˆ«ì ë‹¤ì„¯ê°œë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”(ë„ì–´ì“°ê¸°ë¡œ êµ¬ë¶„) >>";
 	int arr[5];
 	for (int i = 0; i < 5; i++)
 	{
 		cin >> arr[i];
 	}
-	cout << "<Á¤·Ä Àü>" << endl << endl;
+	cout << "<ì •ë ¬ ì „>" << endl << endl;
 	print(arr);
 	sort(arr);
 	cout << endl;
-	cout << "<Á¤·Ä Àü>" << endl << endl;
+	cout << "<ì •ë ¬ ì „>" << endl << endl;
 	print(arr);
 
 
